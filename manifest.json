@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "somnius.serpantinum-power",
+  "name": "Serpantinum Power",
+  "version": "0.1.0",
+  "author": "Somnius",
+  "description": "Animated battery, power profile, and system status for Omarchy",
+  "license": "MIT",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Serpantinum Power",
+    "description": "Animated battery, power profile, and system status",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
